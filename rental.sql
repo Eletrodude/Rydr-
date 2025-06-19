@@ -16,3 +16,7 @@ ALTER TABLE `account`
   
 ALTER TABLE `account`
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
+
+
+  
