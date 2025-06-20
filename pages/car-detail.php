@@ -1,14 +1,14 @@
 <?php require "includes/header.php" ?>
 
 <?php
-//TODO: Implementeer dat de pagina de juiste auto laat zien op basis van de query paramater 'name'
-//$name = $_GET['name'] ?? null;
+// TODO: Implementeer dat de pagina de juiste auto laat zien op basis van de query paramater 'name'
+$name = $_GET['name'] ?? null;
 
-//if ($name) {
-//    echo "Toon details van auto met naam: " . htmlspecialchars($name);
-//} else {
-//    echo "Geen auto opgegeven.";
-//}
+if ($name) {
+   echo "Toon details van auto met naam: " . htmlspecialchars($name);
+} else {
+   echo "Geen auto opgegeven.";
+}
 
 
 
