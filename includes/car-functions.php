@@ -32,9 +32,9 @@ function Display_Car_Card($car) {
     echo '<h3>' . htmlspecialchars($car['Make'] . ' ' . $car['Model']) . '</h3>';
     echo '<div class="car-type">' . htmlspecialchars($car['Category']) . '</div>';
     echo '</div>';
-    echo '<img src="' . htmlspecialchars($image_path) . '" alt="' . htmlspecialchars($car['Make'] . ' ' . $car['Model']) . '">';
+echo '<img src="' . htmlspecialchars($image_path) . '" alt="' . htmlspecialchars($car['Make'] . ' ' . $car['Model']) . '" style="height:300px; object-fit:cover;">';
     echo '<div class="car-specification">';
-    echo '<span><img src="assets/images/icons/gas-station.svg" alt="" width="10%" height="100%">' . htmlspecialchars($car['Fuel']) . 'L</span>';
+    echo '<span><img src="assets/images/icons/gas-station.svg" alt="">' . htmlspecialchars($car['Fuel']) . 'L</span>';
     echo '<span><img src="assets/images/icons/car.svg" alt="">' . htmlspecialchars($car['Steering']) . '</span>';
     echo '<span><img src="assets/images/icons/profile-2user.svg" alt="">' . htmlspecialchars($car['Seats']) . ' Personen</span>';
     echo '</div>';
